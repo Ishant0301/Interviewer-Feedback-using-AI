@@ -90,4 +90,18 @@ def transcribe_video(video_path):
         st.error(f"Error during transcription: {e}")
         return None
 
- 
+def get_first_frame(video_path, timestamp):
+    """
+    Get the first frame of a video segment as an image.
+    """
+    try:
+        video_clip = VideoFileClip(video_path)
+        frame = video_clip.get_frame(timestamp)
+        video_clip.close()
+        
+        # Convert numpy array to PIL Image
+        frame_image = Image.fromarray(frame)
+        return frame_image
+    except Exception as e:
+        st.error(f"Error extracting first frame: {e}")
+        return None
