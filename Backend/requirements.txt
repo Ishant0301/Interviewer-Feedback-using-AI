@@ -1,0 +1,7 @@
+python-dotenv
+requests
+assemblyai
+moviepy
+streamlit
+Pillow
+numpy
