@@ -1,94 +1,58 @@
 Interviewer Feedback Using AI
-
 Transform the way you evaluate interviews. Let AI watch, listen, and assess — so you don’t have to.
 
-
 About the Project
+Tired of watching hours of interview recordings? What if you had an AI assistant that could: ✅ Transcribe interviews ✅ Highlight key moments ✅ Score candidates ✅ Provide structured feedback
 
-Tired of watching hours of interview recordings? What if you had an AI assistant that could transcribe interviews, pick out the important parts, grade candidates, and even suggest pros and cons — all while giving you a clear recommendation?
+Interviewer Feedback Using AI is your futuristic interview analysis companion. Powered by Streamlit and advanced AI models, it watches interview videos, understands conversations, and generates objective, insightful feedback with video previews, timestamps, and editable reports.
 
-Interviewer Feedback Using AI is your futuristic interview analysis companion. This intelligent Streamlit-powered app uses cutting-edge AI models to watch interview videos, understand conversations, and deliver structured, unbiased, and insightful feedback — with video previews, timestamps, and editable reports.
-
-
-
+Suggested Image: Diagram showing AI's workflow from video analysis to structured feedback.
 Key Features
+🔎 Smart Candidate Search — Find candidates instantly by name or email.
 
-Smart Candidate Search — Find candidates instantly using their name or email.
+📥 Video Downloader — Fetch videos directly from Google Drive.
 
-Video Downloader — Fetch videos straight from Google Drive.
+📝 AI-Powered Transcription — Using AssemblyAI for accurate speech-to-text conversion.
 
-AI-Powered Transcription — Leverage AssemblyAI’s powerful speech-to-text API.
+❓ Question & Answer Extraction — Identifies interviewer questions and candidate responses.
 
-Question & Answer Extraction — Separate interviewer questions and candidate answers cleanly.
+📂 Automatic Categorization — Sorts Q&A into relevant topics like AI, EDA, JavaScript, etc.
 
-Automatic Categorization — Sort questions into topics like EDA, AI, JavaScript, and more.
+✨ Instant Feedback Generation — AI-generated scores, pros, cons, and summary.
 
-Instant Feedback Generation — Get AI-generated scores, pros, cons, and feedback summaries.
+🎥 Video Frame Snapshots — Preview key moments with snapshots at exact timestamps.
 
-Video Frame Snapshots — Preview key moments with images from exact video timestamps.
+✅ Overall Recommendation — From Highly Recommended to Not Recommended, AI helps make the call.
 
-Overall Candidate Recommendation — From "Highly Recommended" to "Highly Not Recommended" — AI’s got your back.
+✏️ Interactive Feedback Editor — Modify and finalize feedback reports.
 
-Interactive Feedback Editor — Modify scores and feedback before finalizing reports.
-
-Beautiful, intuitive Streamlit interface — Because good tools should also look good.
-
-
+🖥️ Beautiful Streamlit UI — Intuitive and user-friendly.
 
 
 Tech Stack Highlights
-
-Python — The brain behind it all.
-
-Streamlit — Build beautiful, interactive UIs in no time.
-
-AssemblyAI — For crystal-clear, reliable transcription.
-
-OpenRouter + Qwen 2.5 — AI model for analyzing conversations and generating feedback.
-
-MoviePy & PIL — To capture those crucial video frames.
-
-SQLite — Lightweight, embedded candidate database.
-
-Requests & Dotenv — Smooth API integrations and secure config handling.
-
+🔹 Python — Core programming language 
+🔹 Streamlit — Interactive UI framework 
+🔹 AssemblyAI — Speech-to-text API 
+🔹 OpenRouter + Qwen 2.5 — AI model for analysis & feedback 
+🔹 MoviePy & PIL — Video frame capture tools 
+🔹 SQLite — Embedded database for candidates 
+🔹 Requests & Dotenv — API integrations and secure configurations
 
 
 How It Works
-
-1. Enter Candidate Details — via name or email.
-
-
-2. Download and Display the interview video.
-
-
-3. Transcribe the Video — AI turns speech into text.
-
-
-4. Extract & Categorize Q&A Pairs — Cleanly separated.
-
-
-5. AI Feedback Analysis — Score, summarize, and recommend.
-
-
-6. Video Previews at Timestamps — See what happened and when.
-
-
-7. Review Overall Pros, Cons, and Final Verdict
-
-
-8. Edit and Save Feedback — Because you’re still the boss.
-
+1️⃣ Enter Candidate Details — Search via name or email. 
+2️⃣ Download & Display Video — Fetches interview recordings. 
+3️⃣ Transcribe the Video — Converts speech to text. 
+4️⃣ Extract & Categorize Q&A — Separates questions and responses. 
+5️⃣ AI Feedback Analysis — Generates scores and summaries. 
+6️⃣ Video Previews — Highlights important timestamps with images. 
+7️⃣ Review Pros, Cons & Final Verdict — AI recommendations. 
+8️⃣ Edit & Save Feedback — Make changes before finalizing.
 
 
 Why You'll Love It
-
-Saves hours of manual review time.
-
-Reduces interviewer bias.
-
-Generates professional, structured, and objective feedback.
-
-Integrates beautifully into your hiring workflow.
-
-Makes interview feedback data-driven and consistent.
+✅ Saves hours of manual review time 
+✅ Reduces interviewer bias 
+✅ Generates professional, structured feedback 
+✅ Integrates seamlessly into hiring workflows 
+✅ Provides data-driven, consistent evaluations
